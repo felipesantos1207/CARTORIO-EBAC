@@ -145,6 +145,7 @@
       printf("\t1-Registrar o nome\n");//seleçao do usuário
       printf("\t2-Consultar nomes\n");//seleção do usuário
       printf("\t3-Deletar nomes\n");// seleção do usuário
+      printf("\t4-Sair do sistema\n");//seleção do usuário
       printf("Opção:");//Fim do menu
 
 
@@ -168,10 +169,15 @@ scanf("%d",&opcao);//Armazenando a escolha do usuário
 	
 	case 3:
 	deletar ();//chama de função
-	break;  	
+	break; 
 	
-	default:
-	printf ("Essa opção não está dispónivel\n");//informação mostrada para o usuário
+	case 4:
+	printf("Obrigado por utilizar o sistema.\n");
+	return 0;
+	break	
+	
+	;default:
+	printf; ("Essa opção não está dispónivel\n");//informação mostrada para o usuário
 	system("pause");
 	break;}
 }
